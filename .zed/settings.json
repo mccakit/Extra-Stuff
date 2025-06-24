@@ -2,7 +2,7 @@
     "lsp": {
         "clangd": {
             "binary": {
-                "path": "clangd.exe",
+                "path": "C:/dev/toolchains/llvm-project/build/bin/clangd.exe",
                 "arguments": ["--background-index"]
             }
         },
@@ -22,7 +22,7 @@
         "C++": {
             "formatter": {
                 "external": {
-                    "command": "clang-format",
+                    "command": "C:/dev/toolchains/llvm-project/build/bin/clang-format.exe",
                     "arguments": ["--style=microsoft", "{buffer_path}"]
                 }
             },
@@ -31,7 +31,7 @@
         "C": {
             "formatter": {
                 "external": {
-                    "command": "clang-format",
+                    "command": "C:/dev/toolchains/llvm-project/build/bin/clang-format",
                     "arguments": ["--style=microsoft", "{buffer_path}"]
                 }
             },
